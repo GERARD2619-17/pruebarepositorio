@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Estudiante"
+    android:background="@drawable/bg_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Información Estudiante"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textColor="#260101"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/editCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Materia"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/editPrimerParcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer parcial"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="numberDecimal" />
+    <EditText
+        android:id="@+id/editSegundoParcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Segundo parcial"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="numberDecimal" />
+    <EditText
+        android:id="@+id/editTercerParcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tercer parcial"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="65dp"
+        android:background="@drawable/custom_button"
+        android:alpha="0.80"
+        android:text="@string/btnGuardar"
+        android:textColor="#fff"
+
+        android:textStyle="bold" />
+
+
+</LinearLayout>

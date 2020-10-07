@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EvaluacionDispostivos</string>
+    //pantalla de datosactivity
+    <string name="txvName">Nombre: Gerardo Rafael Zelaya Flores</string>
+    <string name="txvCod">Código: ZF16I04001</string>
+    //pantalla de estudianteactivity
+    <string name="txvInfoEs">Informacion Estudiante</string>
+    <string name="editNombre"> </string>
+    <string name="editCodigo"> </string>
+    <string name="editMateria"> </string>
+    <string name="editPrimerParcial"> </string>
+    <string name="editSegundoParcial"> </string>
+    <string name="editTercerParcial"> </string>
+    <string name="btnGuardar">GUARDAR</string>
+    //pantalla mainactivity
+    <string name="btnEstudiante">Nuevo Estudiante</string>
+    <string name="btnListaEstudiante">Lista Estudiante</string>
+    <string name="btnDatos">Datos</string>
+</resources>
